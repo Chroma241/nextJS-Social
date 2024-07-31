@@ -1,0 +1,39 @@
+{
+    "main":{
+        "title": "Blog Page",
+        "to-back": "Go Back",
+        "todayNews": "Today's news"
+    },
+    "article":[
+        {
+            "title":"Ten questions you should answer truthfully",
+            "content":"",
+            "author":"",
+            "link":"/",
+            "date":"2hr"
+        },
+        {
+            "title":"Five unbelievable facts about money",
+            "content":"",
+            "author":"",
+            "link":"/",
+            "date":"3hr"
+        },
+        {
+            "title":"Best Pinterest Boards for learning about business",
+            "content":"",
+            "author":"",
+            "link":"/",
+            "date":"4hr"
+        },
+        {
+            "title":"Skills that you can learn from business",
+            "content":"",
+            "author":"",
+            "link":"/",
+            "date":"6hr"
+        }
+    ]
+
+    
+}

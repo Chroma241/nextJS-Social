@@ -1,0 +1,72 @@
+.submenu {
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 4px; /* Bordures arrondies */
+}
+
+.menuItem {
+  position: relative;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.menuItem:hover {
+  background-color: #f9f9f9; /* Couleur de fond plus douce au survol */
+}
+
+.menuItem > a {
+  display: block;
+  padding: 10px 16px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menuItem > a:hover {
+  color: #007bff; /* Changement de couleur du texte au survol */
+}
+
+.menuItem:hover > .submenu {
+  display: block;
+}
+
+.submenu .menuItem {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 150px; /* Largeur ajustée pour les sous-menus */
+}
+
+.submenu .submenu {
+  width: 150px; /* Largeur ajustée pour les sous-menus */
+  display: none;
+  position: absolute;
+  top: 40%;
+  right: 100%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  border-radius: 4px; /* Bordures arrondies */
+}
+
+.submenu .menuItem:hover > .submenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.submenu .menuItem > a {
+  padding: 8px 12px;
+}
+
+.submenu .menuItem:hover {
+  background-color: #f1f1f1; /* Couleur de fond plus douce au survol */
+}
+
+.submenu .menuItem > a:hover {
+  color: #0056b3; /* Changement de couleur du texte au survol */
+}

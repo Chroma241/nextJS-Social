@@ -1,0 +1,49 @@
+{
+    "stats":{
+        "posts":"Publications",
+        "followers":"Abonnés",
+        "following":"Abonnements"
+    },
+    "links":[
+        {
+            "icon":"/icons/home.svg",
+            "link":"/",
+            "text":"Flux"
+        },
+
+        {
+            "icon":"/icons/person.svg",
+            "link":"/",
+            "text":"Connections"
+        },
+
+        {
+            "icon":"/icons/earth.svg",
+            "link":"/",
+            "text":"Dernieres actualites"
+        },
+        {
+            "icon":"/icons/calendar.svg",
+            "link":"/",
+            "text":"Evenements"
+        },
+        {
+            "icon":"/icons/chat.svg",
+            "link":"/",
+            "text":"Groupes"
+        },
+        {
+            "icon":"/icons/notification.svg",
+            "link":"/",
+            "text":"Notifications"
+        },
+        {
+            "icon":"/icons/cog.svg",
+            "link":"/",
+            "text":"Parametres"
+        }
+    
+
+    ]
+    
+}

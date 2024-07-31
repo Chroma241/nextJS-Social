@@ -1,0 +1,49 @@
+{
+    "stats":{
+        "posts":"Posts",
+        "followers":"Followers",
+        "following":"Following"
+    },
+    "links":[
+        {
+            "icon":"/icons/home.svg",
+            "link":"/",
+            "text":"Feed"
+        },
+
+        {
+            "icon":"/icons/person.svg",
+            "link":"/",
+            "text":"Connections"
+        },
+
+        {
+            "icon":"/icons/earth.svg",
+            "link":"/",
+            "text":"Latest News"
+        },
+        {
+            "icon":"/icons/calendar.svg",
+            "link":"/",
+            "text":"Events"
+        },
+        {
+            "icon":"/icons/chat.svg",
+            "link":"/",
+            "text":"Groups"
+        },
+        {
+            "icon":"/icons/notification.svg",
+            "link":"/",
+            "text":"Notifications"
+        },
+        {
+            "icon":"/icons/cog.svg",
+            "link":"/",
+            "text":"Settings"
+        }
+    
+
+    ]
+    
+}

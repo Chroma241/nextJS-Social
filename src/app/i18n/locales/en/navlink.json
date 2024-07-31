@@ -1,0 +1,21 @@
+{
+    "links": 
+        [
+            {
+                "url": "/",
+                "text": "homepage",
+                "sublink": []
+            },
+            {
+                "url": "/blog",
+                "text": "blog",
+                "sublink": [
+                    {
+                        "url":"/blog/tech",
+                        "text":"tech blog",
+                        "sublink": []
+                    }
+                ]
+            }
+        ]
+}
